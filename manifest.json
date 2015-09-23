@@ -1,0 +1,12 @@
+{
+  "name": "Enhancify",
+  "description": "Reflows articles to improve readability. Enhancify the web.",
+  "author": "Ray Sun",
+  "homepage_url": "http://raysun.info",
+  "version": "1",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions":["*://*.wsj.com/*","*://*.nytimes.com/*","webRequest","webRequestBlocking"]
+}
